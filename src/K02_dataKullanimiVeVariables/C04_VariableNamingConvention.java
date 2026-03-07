@@ -14,8 +14,8 @@ public class C04_VariableNamingConvention {
         // AMMA buyuk harf ile baslarsaniz
         // Java kodu hata olarak algilamaz, altini cizmez
 
-        System.out.println(yAS); // 23
-        System.out.println(yas); // 30
+        System.out.println( yAS ); // 23
+        System.out.println( yas ); // 30
         // System.out.println(YaS); // boyle bir variable yok, hata verir
 
         // int int = 45; isim olarak java'da tanimli keyword'ler kullanilamaz
@@ -26,6 +26,6 @@ public class C04_VariableNamingConvention {
 
         double yasOrtalamasi = 13.8;
         yasOrtalamasi = yasOrtalamasi * 4 / 5 ;
-        System.out.println(yasOrtalamasi);
+        System.out.println( yasOrtalamasi );
     }
 }

@@ -15,13 +15,13 @@ public class C02_KullanicidanBilgiAlipYazdirma {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Isminiz: ");
+        System.out.println( "Isminiz: " );
         String name = scanner.nextLine();
 
-        System.out.println("Soyisminiz: ");
+        System.out.println( "Soyisminiz: " );
         String surname = scanner.nextLine();
 
-        System.out.println("Yasiniz: ");
+        System.out.println( "Yasiniz: " );
         int age = scanner.nextInt();
 
         System.out.println(

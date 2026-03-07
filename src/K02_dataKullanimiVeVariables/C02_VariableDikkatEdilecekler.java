@@ -25,7 +25,7 @@ public class C02_VariableDikkatEdilecekler {
 
         int yas = 20;
 
-        yas = 2 * yas + 3 ;
+        yas = 2 * yas + 3;
 
         // 2 * yas = 40; // variable expected
 

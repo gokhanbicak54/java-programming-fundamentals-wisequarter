@@ -11,13 +11,13 @@ public class C01_ScannerClassKullanimi {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Ondalikli sayi giriniz: ");
+        System.out.println( "Ondalikli sayi giriniz: " );
         double ondalikliSayi = scanner.nextDouble();
 
-        System.out.println("Tamsayi giriniz: ");
+        System.out.println( "Tamsayi giriniz: " );
         int tamSayi = scanner.nextInt();
 
-        System.out.println("Toplam: " + (ondalikliSayi + tamSayi));
-        System.out.println("Carpim: " + (ondalikliSayi * tamSayi));
+        System.out.println( "Toplam: " + (ondalikliSayi + tamSayi) );
+        System.out.println( "Carpim: " + (ondalikliSayi * tamSayi) );
     }
 }

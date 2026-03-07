@@ -11,12 +11,12 @@ public class C03_DikdortgenAlaniHesaplama {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("1. kenari giriniz: ");
+        System.out.println( "1. kenari giriniz: " );
         double edge1 = scanner.nextDouble();
 
-        System.out.println("2. kenari giriniz: ");
+        System.out.println( "2. kenari giriniz: " );
         double edge2 = scanner.nextDouble();
 
-        System.out.println("Alan: " + (edge1 * edge2));
+        System.out.println( "Alan: " + (edge1 * edge2) );
     }
 }
