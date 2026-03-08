@@ -12,19 +12,19 @@ public class C06_CharDataTuruMatematikselIslemler {
         // matematiksel islemlerde kullanirsaniz
         // Java direkt ASCII table'daki degeri ile isleme alir
 
-        System.out.println( chr1 + chr2 + chr3 ); // 97 + 98 + 99 ==> 294
+        System.out.println(chr1 + chr2 + chr3); // 97 + 98 + 99 ==> 294
 
-        System.out.println( 'a' + 'b' + 'c' ); // 97 + 98 + 99 ==> 294
+        System.out.println('a' + 'b' + 'c'); // 97 + 98 + 99 ==> 294
 
-        System.out.println( "a" + "b" + "c" ); // abc String toplanan metinleri YANYANA yazdirir
+        System.out.println("a" + "b" + "c"); // abc String toplanan metinleri YANYANA yazdirir
 
         // sayi olarak verilmis bir degerin char karsiligini yazdirin
 
         int sayi1 = 97; // a
         int sayi2 = 65; // A
 
-        System.out.println( (char)sayi1 );
-        System.out.println( (char)sayi2 );
+        System.out.println((char)sayi1);
+        System.out.println((char)sayi2);
 
         // verilen bir harfin sonrasindaki 3 karakteri yazdirin
         // Orn : verilen harf : k ise sonraki 3 karakter : l, m, n
@@ -41,8 +41,8 @@ public class C06_CharDataTuruMatematikselIslemler {
         char chr6 = 'a';
         char chr7 = 'm';
 
-        System.out.println( chr6 > 'k' ); //  97 > 108 ==> false
+        System.out.println(chr6 > 'k'); //  97 > 108 ==> false
 
-        System.out.println( chr7 > 'k' ); //  110 > 108 ==> true
+        System.out.println(chr7 > 'k'); //  110 > 108 ==> true
     }
 }

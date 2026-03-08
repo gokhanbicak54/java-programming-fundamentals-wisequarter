@@ -14,11 +14,11 @@ public class C02_VariableDikkatEdilecekler {
         sayi = 30;
 
 
-        System.out.println( sayi ); // 30
+        System.out.println(sayi); // 30
 
         sayi = sayi + 5;
 
-        System.out.println( sayi ); // 35
+        System.out.println(sayi); // 35
 
         // 2- Esitligin sol tarafinda SADECE variable olur
         // sag tarafta ise deger

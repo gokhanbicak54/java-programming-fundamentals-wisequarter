@@ -12,13 +12,13 @@ public class C04_KullanicidanBilgiAlipYazdirma {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println( "Isim giriniz: " );
+        System.out.println("Isim giriniz: ");
         String name = scanner.nextLine();
 
-        System.out.println( "Soyisim giriniz: " );
+        System.out.println("Soyisim giriniz: ");
         String surname = scanner.nextLine();
 
-        System.out.println( "Yasini giriniz: " );
+        System.out.println("Yasini giriniz: ");
         int age = scanner.nextInt();
 
         System.out.println(

@@ -12,10 +12,10 @@ public class C05_CemberinCevresiniYazdirma {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println( "Yaricapi giriniz: " );
+        System.out.println("Yaricapi giriniz: ");
         double radius = scanner.nextDouble();
 
-        System.out.println( "Cevre: " + (2 * 3.14 * radius) );
-        System.out.println( "Alan: " + (3.14 * radius * radius) );
+        System.out.println("Cevre: " + (2 * 3.14 * radius));
+        System.out.println("Alan: " + (3.14 * radius * radius));
     }
 }
