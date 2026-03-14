@@ -25,18 +25,18 @@ public class C01_VariableKullanimi {
 
         int yas = 40;
 
-        System.out.println("yas variable'inin 30.satirdaki degeri: "  + yas);
-        // yas variable'inin 30.satirdaki degeri : 40
+        System.out.println("yas variable'inin degeri: "  + yas);
+        // yas variable'inin degeri : 40
 
         yas = yas + 5;
 
-        System.out.println("yas variable'inin 35.satirdaki degeri: "  + yas);
-        // yas variable'inin 35.satirdaki degeri : 45
+        System.out.println("yas variable'inin degeri: "  + yas);
+        // yas variable'inin degeri : 45
 
         yas = 2 * yas + 1;
 
-        System.out.println("yas variable'inin 42.satirdaki degeri: "  + yas);
-        // yas variable'inin 42.satirdaki degeri : 91
+        System.out.println("yas variable'inin degeri: "  + yas);
+        // yas variable'inin degeri : 91
 
     } // main method sonu
 }
