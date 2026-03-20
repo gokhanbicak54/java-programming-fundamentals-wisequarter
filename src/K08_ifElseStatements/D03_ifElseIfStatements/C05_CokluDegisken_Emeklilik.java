@@ -23,7 +23,7 @@ public class C05_CokluDegisken_Emeklilik {
         System.out.println("Lutfen yasinizi giriniz...");
         double yas = scanner.nextDouble();
 
-        if (yas < 15 || yas > 80 || !(cinsiyet == 'E' || cinsiyet == 'K')) {
+        if (yas < 15 || yas > 80 || (cinsiyet != 'E' && cinsiyet != 'K')) {
             System.out.println("Girilen degerleri gozden gecirin");
         } else if (cinsiyet == 'K' && yas >= 60) {
             System.out.println("Kadin emekli olabilir");
