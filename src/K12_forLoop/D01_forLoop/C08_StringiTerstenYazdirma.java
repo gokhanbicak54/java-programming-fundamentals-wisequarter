@@ -13,12 +13,8 @@ public class C08_StringiTerstenYazdirma {
         System.out.println("Lutfen bir metin giriniz...");
         String metin = scanner.nextLine();
 
-
-        for (int i = metin.length()-1  ; i >=0  ; i--) {
-
+        for (int i = metin.length() - 1; i >= 0; i--) {
             System.out.print(metin.charAt(i));
         }
-
-
     }
 }

@@ -13,22 +13,16 @@ public class C07_AsalMi {
         System.out.println("Lutfen pozitif bir tamsayi giriniz...");
         int sayi = scanner.nextInt();
 
+        for (int i = 2; i < sayi; i++) {
 
-        for (int i = 2; i < sayi ; i++) {
-
-
-            if (sayi % i == 0){
+            if (sayi % i == 0) {
                 System.out.println("Asal degil");
                 break;
             }
 
-            if (i == sayi-1){
-
+            if (i == sayi - 1) {
                 System.out.println("Sayi asal");
             }
-
         }
-
-
     }
 }

@@ -10,7 +10,6 @@ public class C04_AradakiSayilarinToplami {
         //  sinirlar dahil olarak aralarindaki tum sayilarin toplamini yazdirin.
         //  Bitis degeri baslangic degerinden kucuk olsa da program calissin
 
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("baslangic degeri olarak pozitif tamsayi giriniz...");
         int baslangic = scanner.nextInt();
@@ -20,25 +19,15 @@ public class C04_AradakiSayilarinToplami {
 
         int toplam = 0;
 
-        if (baslangic < bitis ){
-
-            for (int i = baslangic; i <= bitis ; i++) {
-
+        if (baslangic < bitis) {
+            for (int i = baslangic; i <= bitis; i++) {
                 toplam += i;
             }
-        }else {
-
-            for (int i = baslangic; i >= bitis ; i-- ) {
-
+        } else {
+            for (int i = baslangic; i >= bitis; i--) {
                 toplam += i;
             }
-
-
         }
-
-        System.out.println(baslangic + " ile "+ bitis + " sayilari dahil olarak aralarindaki tamsayilarin toplami : " + toplam);
-
-
+        System.out.println(baslangic + " ile " + bitis + " sayilari dahil olarak aralarindaki tamsayilarin toplami: " + toplam);
     }
-
 }

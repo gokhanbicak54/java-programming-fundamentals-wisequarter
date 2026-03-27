@@ -37,9 +37,5 @@ public class C03_MantiksalOperatorler {
 
         // verilen sayinin 100 ile 200 arasinda (sinirlar dahil) olmadigini kontrol edin
         System.out.println(verilenSayi < 100 || verilenSayi > 200); // true
-
-
-
-
     }
 }
