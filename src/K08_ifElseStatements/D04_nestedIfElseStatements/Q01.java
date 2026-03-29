@@ -1,4 +1,4 @@
-package K08_ifElseStatements.D03_ifElseIfStatements;
+package K08_ifElseStatements.D04_nestedIfElseStatements;
 
 import java.util.Scanner;
 
@@ -21,14 +21,20 @@ public class Q01 {
         if (gender == 'K') {
             if (age >= 60) {
                 System.out.println("Emekli olabilirsin");
-            } else {
+            } else if (age >= 18) {
                 System.out.println("Emekli olmak icin " + (60 - age) + " yil daha calisman gerekir");
+            }
+            else {
+                System.out.println("Emeklilik kontrol edilemez");
             }
         } else if (gender == 'E') {
             if (age >= 65) {
                 System.out.println("Emekli olabilirsin");
-            } else {
+            } else if (age >= 18) {
                 System.out.println("Emekli olmak icin " + (65 - age) + " yil daha calisman gerekir");
+            }
+            else {
+                System.out.println("Emeklilik kontrol edilemez");
             }
         } else {
             System.out.println("Cinsiyeti yanlış girdiniz");
