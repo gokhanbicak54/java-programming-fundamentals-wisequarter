@@ -14,7 +14,7 @@ public class Q05 {
         char name = scanner.next().charAt(0);
 
         System.out.println("Soyisim: ");
-        String surname = scanner.next();
+        String surname = scanner.nextLine();
 
         System.out.println("Yas: ");
         int age = scanner.nextInt();

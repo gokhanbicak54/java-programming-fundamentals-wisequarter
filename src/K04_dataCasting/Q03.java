@@ -14,10 +14,10 @@ public class Q03 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Isim: ");
-        String name = scanner.next();
+        String name = scanner.nextLine();
 
         System.out.println("Soyisim: ");
-        String surname = scanner.next();
+        String surname = scanner.nextLine();
 
         System.out.println("Yas: ");
         int age = scanner.nextInt();

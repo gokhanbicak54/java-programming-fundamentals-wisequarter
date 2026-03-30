@@ -12,7 +12,7 @@ public class Q04 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Gun: ");
-        String day = scanner.next();
+        String day = scanner.nextLine();
 
         if (day.equals("Pazartesi")) {
             System.out.println("Simdi calisma zamani tatile " + (6 - 1) + " gun var");
