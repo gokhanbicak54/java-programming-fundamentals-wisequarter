@@ -24,12 +24,14 @@ public class C01_LocalVariables {
         // str1 = "Veli";
     }
 
-    public static  void method1(){
+    public static  void method1() {
+
         int sayi = 10;
         //str = "Java guzel";
     }
 
-    public void method2(){
+    public void method2() {
+
         char chr = '@';
         //System.out.println(str);
     }

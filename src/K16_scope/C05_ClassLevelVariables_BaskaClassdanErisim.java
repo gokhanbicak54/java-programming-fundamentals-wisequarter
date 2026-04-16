@@ -9,12 +9,13 @@ public class C05_ClassLevelVariables_BaskaClassdanErisim {
 
         Ancak bu kullanim icin dogru yontemi bilmeliyiz
      */
+
     public static void main(String[] args) {
         // kural1 - baska class'dan variable veya method'u direkt kullanamayiz
-        //System.out.println( strI );
-        //System.out.println( sayiS );
-        //method1();
-        //method2();
+        // System.out.println( strI );
+        // System.out.println( sayiS );
+        // method1();
+        // method2();
 
         // static class uyeleri classIsmi.classUyeIsmi seklinde kullanilabilir
 

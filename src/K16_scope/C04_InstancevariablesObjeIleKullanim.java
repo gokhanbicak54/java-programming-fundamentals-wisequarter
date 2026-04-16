@@ -28,16 +28,13 @@ public class C04_InstancevariablesObjeIleKullanim {
         System.out.println(obj.blS); // null
         // Static member 'blS' accessed via instance reference
         System.out.println(blS); // null
-
-
     }
 
-    public static void method1(){
+    public static void method1() {
 
     }
 
     public void method2(){
         System.out.println(strI);
-
     }
 }

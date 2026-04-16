@@ -36,19 +36,18 @@ public class C03_ClassLevelVariablesDirektKullanim {
         // static int a = 34; // Modifier 'static' not allowed here
         System.out.println(strS); // Ali
         System.out.println(sayiS); // 0
-        sayiS=45;
+        sayiS = 45;
         System.out.println(sayiS); // 45
         System.out.println(chrS); // #
         System.out.println(blS); // false
 
-        //System.out.println(strI);
+        // System.out.println(strI);
         // Non-static field 'strI' cannot be referenced from a static context
         // static olmayan strI static alandan KULLANILAMAZ
-        //System.out.println(sayiI);
-
+        // System.out.println(sayiI);
     }
 
-    public static void method1(){
+    public static void method1() {
         System.out.println(strS);
         System.out.println(sayiS);
         System.out.println(chrS);
@@ -57,19 +56,16 @@ public class C03_ClassLevelVariablesDirektKullanim {
         // strI = "Java";
         // Non-static field 'strI' cannot be referenced from a static context
         // System.out.println(sayiI);
-
     }
 
-
-    public void method2(){
+    public void method2() {
         System.out.println(strS);
         System.out.println(sayiS);
         System.out.println(chrS);
         System.out.println(blS);
-
         System.out.println(strI);
-        sayiI= 34;
-        chrI='p';
+        sayiI = 34;
+        chrI = 'p';
         System.out.println(blI);
     }
 }

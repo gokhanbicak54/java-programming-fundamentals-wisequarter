@@ -21,21 +21,18 @@ public class C02_LocalVariables {
         System.out.println(str);
         System.out.println(str.length());
 
-
         // System.out.println(Character.toUpperCase(chr));
         // Variable 'chr' might not have been initialized
 
         method1(5);
-
     }
 
-    public static void method1(int sayi2){
+    public static void method1(int sayi2) {
 
         System.out.println(sayi2); // 5
 
         // int sayi2 = 45;
         // Variable 'sayi2' is already defined in the scope
-
         sayi2 = 23;
     }
 }

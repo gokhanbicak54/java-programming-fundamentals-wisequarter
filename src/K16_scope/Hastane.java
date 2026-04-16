@@ -1,6 +1,7 @@
 package K16_scope;
 
 public class Hastane {
+
     static String hastaneIsmi  = "Yildiz Hastanesi";
     static String hastaneAdresi = "Yenimahalle";
     static String bashekim = "Doktor Ali";
@@ -20,11 +21,9 @@ public class Hastane {
         per1.perTel = "5443454545";
         per1.perAdres = "Balgat";
 
-
         System.out.println(per1.perIsmi); // Hatice
         System.out.println(per1.perAdres); // Balgat
         System.out.println(per1.perTel); // 5443454545
-
 
         Hastane per2 = new Hastane();
 
@@ -40,10 +39,8 @@ public class Hastane {
 
         per3.perAdres = "Cankaya";
 
-        System.out.println(per1.perIsmi);
-
-        System.out.println(per2.perIsmi);
-
-        System.out.println(per3.perIsmi);
+        System.out.println(per1.perIsmi); // Hatice
+        System.out.println(per2.perIsmi); // Cansu
+        System.out.println(per3.perIsmi); // Isim atanmadi
     }
 }
