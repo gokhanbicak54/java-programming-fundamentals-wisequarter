@@ -25,7 +25,7 @@ public class C06_PozitifElementlerinToplami {
 
     public static int pozitifElementlerinToplami(int[] arr) {
 
-        int toplam =0 ;
+        int toplam = 0;
 
         for (int i = 0; i < arr.length; i++) {
 

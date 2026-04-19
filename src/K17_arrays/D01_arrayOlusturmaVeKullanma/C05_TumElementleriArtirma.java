@@ -12,7 +12,6 @@ public class C05_TumElementleriArtirma {
         int[] arr = {3, 7, 0, 2, 4, 6};
 
         for (int i = 0; i < arr.length; i++) {
-
             arr[i] += 2;
         }
 
@@ -26,7 +25,6 @@ public class C05_TumElementleriArtirma {
     public static int[] arrayinElemanlariniArtir(int[] arr, int artisMiktari) {
 
         for (int i = 0; i < arr.length; i++) {
-
             arr[i] += artisMiktari;
         }
 
