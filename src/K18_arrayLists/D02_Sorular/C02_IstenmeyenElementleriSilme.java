@@ -30,7 +30,7 @@ public class C02_IstenmeyenElementleriSilme {
     // Verilen String bir listede istenmeyen harf iceren elementleri silip,
     // kalan kismini list olarak bize donduren bir method olusturun
 
-    public static List<String> istenmeyenElementleriSil (List<String> isimler, String istenmeyenHarf) {
+    public static List<String> istenmeyenElementleriSil(List<String> isimler, String istenmeyenHarf) {
 
         for (int i = 0; i < isimler.size(); i++) {
 

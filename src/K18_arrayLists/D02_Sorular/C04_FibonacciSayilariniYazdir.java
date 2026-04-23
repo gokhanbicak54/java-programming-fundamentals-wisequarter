@@ -20,7 +20,7 @@ public class C04_FibonacciSayilariniYazdir {
         System.out.println("Lutfen kac adet fibonacci sayisi istediginizi giriniz...");
         int n = scanner.nextInt();
 
-        List<Integer> fibopnacciSerisi = new ArrayList<>();
+        List<Integer> fibonacciSerisi = new ArrayList<>();
 
         //  n <= 0   hata versin
         //  n == 1   {0}
@@ -30,20 +30,20 @@ public class C04_FibonacciSayilariniYazdir {
         if (n <= 0) {
             System.out.println("Pozitif bir deger girmelisiniz...");
         } else if (n == 1) {
-            fibopnacciSerisi.add(0);
+            fibonacciSerisi.add(0);
         } else if (n == 2) {
-            fibopnacciSerisi.add(0);
-            fibopnacciSerisi.add(1);
+            fibonacciSerisi.add(0);
+            fibonacciSerisi.add(1);
         } else {
-            fibopnacciSerisi.add(0);
-            fibopnacciSerisi.add(1);
+            fibonacciSerisi.add(0);
+            fibonacciSerisi.add(1);
 
             for (int i = 2; i < n; i++) {
-                fibopnacciSerisi.add(fibopnacciSerisi.get(i - 2) + fibopnacciSerisi.get(i - 1));
+                fibonacciSerisi.add(fibonacciSerisi.get(i - 2) + fibonacciSerisi.get(i - 1));
             }
         }
 
-        System.out.println(fibopnacciSerisi);
+        System.out.println(fibonacciSerisi);
     }
 
     // Verilen pozitif bir n tamsayisini alarak,
@@ -51,24 +51,24 @@ public class C04_FibonacciSayilariniYazdir {
 
     public static List<Integer> fibonacciSerisiOlustur(int seridekiElementSayisi) {
 
-        List<Integer> fibopnacciSerisi = new ArrayList<>();
+        List<Integer> fibonacciSerisi = new ArrayList<>();
 
         if (seridekiElementSayisi <= 0) {
             System.out.println("Pozitif bir deger girmelisiniz...");
         } else if (seridekiElementSayisi == 1) {
-            fibopnacciSerisi.add(0);
+            fibonacciSerisi.add(0);
         } else if (seridekiElementSayisi == 2) {
-            fibopnacciSerisi.add(0);
-            fibopnacciSerisi.add(1);
+            fibonacciSerisi.add(0);
+            fibonacciSerisi.add(1);
         } else {
-            fibopnacciSerisi.add(0);
-            fibopnacciSerisi.add(1);
+            fibonacciSerisi.add(0);
+            fibonacciSerisi.add(1);
 
             for (int i = 2; i < seridekiElementSayisi; i++) {
-                fibopnacciSerisi.add(fibopnacciSerisi.get(i - 2) + fibopnacciSerisi.get(i - 1));
+                fibonacciSerisi.add(fibonacciSerisi.get(i - 2) + fibonacciSerisi.get(i - 1));
             }
         }
 
-        return fibopnacciSerisi;
+        return fibonacciSerisi;
     }
 }
