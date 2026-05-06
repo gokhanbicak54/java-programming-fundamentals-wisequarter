@@ -17,9 +17,6 @@ public class C01_ConstructorNedir {
 
         String str = new String("Ali");
 
-
-
-
         /*
             Java'da surekli kullanacagimiz ozellikleri class'lara yerlestiririz
             Herhangi bir class'daki ozelliklere(variable ve method'lar) ulasabilmek icin
@@ -36,11 +33,6 @@ public class C01_ConstructorNedir {
         // Class ismi     obje ismi  atama isareti  keyword      constructor
         List<Integer>  sayilar1        =          new       ArrayList<>();
 
-         /*
-            Java'da bir obje olusturup ilk deger atamasi yapmak icin
-            MUTLAKA bir Constructor CALISMALIDIR
-         */
-
-
+        // Java'da bir obje olusturup ilk deger atamasi yapmak icin MUTLAKA bir Constructor CALISMALIDIR
     }
 }
