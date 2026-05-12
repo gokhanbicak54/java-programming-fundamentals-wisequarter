@@ -9,15 +9,14 @@ public class C03_StringBuilderda_StringMethodlariKullanma {
         // sb "a" icerir mi ?
 
         /*
-            NOT 1 : stringBuilder'da olmayan ama String'de olan method'lari kullanmak isterseniz
+            NOT 1: stringBuilder'da olmayan ama String'de olan method'lari kullanmak isterseniz
                     toString() ile String'e donusturup istedigimiz method'lari kullanabiliriz
          */
 
         System.out.println(sb.toString().contains("a")); // true
 
-
         /*
-            NOT 2 : StringBuilder method'larindan return type'i StringBuilder olanlar
+            NOT 2: StringBuilder method'larindan return type'i StringBuilder olanlar
                     kalici degisiklik yaparlar
                     AMMA return type'i StringBuilder OLMAYANLAR
                     kalici degisiklik YAPMAZ
@@ -30,7 +29,5 @@ public class C03_StringBuilderda_StringMethodlariKullanma {
         System.out.println(sb.length()); // 11
 
         System.out.println(sb); // Java candir
-
-
     }
 }

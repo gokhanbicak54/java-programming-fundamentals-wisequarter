@@ -10,7 +10,6 @@ public class C04_Karsilastirma {
 
         // ayni metne sahip olan str, sb1 ve sb2'yi karsilastiralim
 
-
         //  1-   ==  ile  karsilastiralim
 
         /*
@@ -19,12 +18,10 @@ public class C04_Karsilastirma {
             Java bu karsilastirmaya itiraz etmez AMMA sonuc her zaman false'dur
          */
 
-        // System.out.println( str == sb1);
+        // System.out.println(str == sb1);
         // Operator '==' cannot be applied to 'java.lang.String', 'java.lang.StringBuilder'
 
         System.out.println(sb1 == sb2); // false
-
-
 
         // 2-  equals() ile karsilastiralim
 
@@ -39,7 +36,6 @@ public class C04_Karsilastirma {
             sonuc true olur
          */
 
-
         System.out.println(str.equals(sb1));  // false
         // Result of 'str.equals(sb1)' is always 'false'
         // 'equals' between objects of inconvertible types 'String' and 'StringBuilder'
@@ -47,15 +43,7 @@ public class C04_Karsilastirma {
         System.out.println(sb1.equals(sb2));  // false
         // Suspicious call to 'equals()' on 'StringBuilder' object
 
-
-        System.out.println(sb1.equals(sb1));  // true
-
-
-
-
-
-
-
+        System.out.println(sb1.equals(sb1));  // true // kendine esit true olur sadece
 
         // 3- compareTo() ile karsilastiralim
 
@@ -76,15 +64,12 @@ public class C04_Karsilastirma {
             her iki StringBuilder'daki tum index'lerdeki karakterleri compare eder
             EGER bir index'de ayni olmayan karakterler bulursa
             bu iki karakter arasindaki ASCII deger farkini yazdirir
-
          */
 
         System.out.println(sb3.compareTo(sb4)); // Java <==> Tava   -10  J K L M N O P Q R S T
         System.out.println(sb3.compareTo(sb5)); // Java <==> java   -32
         System.out.println(sb3.compareTo(sb6)); // Java <==> Tele   -10
-        System.out.println(sb6.compareTo(sb7)); // Tele <==> Tema   -1 T-T, e-e, l-m l m'den 1 geride ==> -1
-        System.out.println(sb3.compareTo(sb8)); // Java <==> Java   J-J, a-a, v-v, a-a farkli karakter yok ==> 0
-
-
+        System.out.println(sb6.compareTo(sb7)); // Tele <==> Tema   -1   T-T, e-e, l-m l m'den 1 geride ==> -1
+        System.out.println(sb3.compareTo(sb8)); // Java <==> Java    0   J-J, a-a, v-v, a-a farkli karakter yok ==> 0
     }
 }
