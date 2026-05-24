@@ -75,7 +75,7 @@ public class C05_Child extends C04_Parent {
           Child class'ta override edilemez
      */
 
-    // public int method5(){
+    // public int method5() {
     // 'method5()' cannot override
     // 'method5()' in '.C04_Parent';
     // overridden method is final
@@ -165,7 +165,7 @@ public class C05_Child extends C04_Parent {
         return 0;
     }
 
-    // public Short method14(){
+    // public Short method14() {
     // Parent class'daki return type Integer
     // Short Integer'in child class'i olmadigindan
     // bu method olusturulamaz
