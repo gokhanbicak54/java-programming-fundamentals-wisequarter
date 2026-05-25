@@ -36,6 +36,6 @@ public class C01_SayiToplama {
             }
         }
 
-        System.out.println("Giirilen " + sayac + " adet sayinin toplami: " + toplam);
+        System.out.println("Girilen " + sayac + " adet sayinin toplami: " + toplam);
     }
 }

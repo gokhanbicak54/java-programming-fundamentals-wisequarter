@@ -17,13 +17,13 @@ public class C02_MultipleTryCatch {
         if (index < 0) {
             System.out.println("Index negatif olmamalidir");
         } else {
-            // 1.yontem : ayri ayri try catch
-
+            // 1.yontem: ayri ayri try catch
             try {
                 System.out.println(arr[index]); // ArrayIndexOutOfBoundsException
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Girilen index Array'in sinirlari disinda. Kullanilabilecek son index: " + (arr.length - 1));
             }
+
             try {
                 System.out.println(str.charAt(index)); // StringIndexOutOfBoundsException
             } catch (StringIndexOutOfBoundsException e) {
