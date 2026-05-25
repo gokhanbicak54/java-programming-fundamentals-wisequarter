@@ -10,24 +10,26 @@ public interface I02_Interfaces {
 
     public static final int SAYI = 20;
     public final String str ="Java candir";
-    //public static char chr ;
+    // public static char chr;
     boolean bl = true;
 
     public static void main(String[] args) {
+
         /*
           variable'larin onunde static yazmasa da
           static main method icinden kullanabiliriz
           cunku interface icindeki tum variable public, static ve final'dir
          */
+
         System.out.println(bl);
 
         /*
          variable'larin onunde final yazmasa da
          interface icindeki tum variable public, static ve final'dir
          final variable'larin degeri DEGISTIRILEMEZ
-
          Cannot assign a value to final variable 'sayi'
          */
+
         // SAYI = 30;
 
         /*
@@ -36,7 +38,8 @@ public interface I02_Interfaces {
          char chr;  normalde class level variable'lara atama yapmak zorunlu degildir
          Ancak interface'de sonradan atama yapamayacagimiz icin basta deger atamak ZORUNLUDUR
          */
-        //chr = 'a';
+
+        // chr = 'a';
 
         /*
          Genel bir kabul olarak

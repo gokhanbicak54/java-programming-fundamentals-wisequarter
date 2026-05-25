@@ -7,7 +7,7 @@ public interface I01_Interface {
 
     // public void method1() {
 
-    //}
+    // }
 
     /*
         biz interface icinde abstract yazmadan bir method olustursak da
@@ -23,10 +23,10 @@ public interface I01_Interface {
       /*
         biz interface icinde bir method olusturdugumuzda
         public ve abstract keyword'lerini
-        YAZSAK da , YAZMASAK da farketmez
+        YAZSAK da, YAZMASAK da farketmez
         Java tum method'lari public ve abstract olarak kabul eder
         yukardaki method'larin hepsi public ve abstract'tir
      */
 
-    List<String> list = new ArrayList<>();
+    List<String> list = new ArrayList<>(); // List abstracttır, interfacedir
 }
