@@ -45,7 +45,6 @@ public class C02_KontrolluExceptionFirlatma {
             System.out.println("Emekli olabilirsiniz");
 
         } catch (Exception e) {
-
             if (e.getMessage() == null) {
                 System.out.println("Yanlis giris");
             } else System.out.println(e.getMessage());
